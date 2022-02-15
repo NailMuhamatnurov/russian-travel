@@ -1,0 +1,11 @@
+.place__item {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, min-content);
+    grid-template-areas: 
+    "title website"
+    "image paragraph";
+    column-gap: 2rem;
+    row-gap: 3rem;
+    margin-bottom: 80px;
+}
