@@ -2,10 +2,8 @@
     text-align: center;
     width: 55%;
     font-size: calc(100vw/14);
-  /*font-size: 72px;*/
     line-height: 1.05;
     margin: 0 auto;
-    padding-top: calc(100vw/5.25);/* 195px;*/
-   /* padding-top: calc(100vh - 445px);*/
+    padding-top: calc(100vw/5.25);
     z-index: 2;
 }
