@@ -4,3 +4,8 @@
     line-height: 1.2;
     margin-top: 12px;
 }
+@media screen and (max-width: 318px) {
+    .place__link {
+        font-size: calc(100vw/18);
+    }
+}

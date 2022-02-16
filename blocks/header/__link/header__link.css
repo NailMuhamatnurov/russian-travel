@@ -9,3 +9,17 @@
 .header__link:last-of-type {
     margin-right: 0;
 }
+
+@media screen and (max-width: 320px) {
+    .header__link {
+        font-size: 18px;
+        line-height: 1.1;
+    }
+}
+@media screen and (max-width: 318px) {
+    .header__link {
+        font-size: calc(100vw/17);
+        line-height: 1.1;
+        margin-right: 9px;
+    }
+}

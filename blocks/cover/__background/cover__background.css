@@ -5,3 +5,8 @@
     width: 100vw;
     height: calc(100vw/1.6);
 }
+@media screen and (min-width: 1034px) {
+    .cover__background {
+        width: 100%;
+    }
+}

@@ -4,3 +4,13 @@
     list-style-type: none;
     margin-top: 92px;
 }
+@media screen and (max-width: 768px) {
+    .place {
+        margin-top: 88px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .place {
+        margin-top: 64px;
+    }
+}
