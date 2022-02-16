@@ -13,7 +13,12 @@
         padding-top: calc(100vw/5.22);
     }
 }
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 1020px) {
+    .cover__title {
+        padding-top: calc(100vw/6.52);
+    }
+}
+@media screen and (max-width: 768px) {
     .cover__title {
         padding-top: calc(100vw/6.52);
         width: calc(100vw/1.37);
