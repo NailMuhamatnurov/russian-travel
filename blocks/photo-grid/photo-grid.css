@@ -10,6 +10,7 @@
 @media screen and (min-width: 1200px) {
     .photo-grid {
         grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(3, 1fr);
     }
 }
 @media screen and (max-width: 768px) {

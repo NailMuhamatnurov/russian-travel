@@ -18,11 +18,11 @@
 
 @media screen and (max-width: 768px) {
     .page {
-        max-width: 94%;
+        width: 93.5%;
     }
 }
 @media screen and (max-width: 320px) {
     .page {
-        max-width: 90%;
+        width: 90%;
     }
 }
