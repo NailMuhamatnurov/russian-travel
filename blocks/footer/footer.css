@@ -6,13 +6,19 @@
 }
 @media screen and (max-width: 750px) {
    .footer {
+     margin-top: 88px;
+   }
+}
+@media screen and (max-width: 750px) {
+   .footer {
       flex-direction: column;
       flex-wrap: wrap;
    }
 }
 @media screen and (max-width: 320px) {
    .footer {
-       flex-direction: column;
-       flex-wrap: wrap;
+      flex-direction: column;
+      flex-wrap: wrap;
+      margin-top: 64px;
    }
 }
