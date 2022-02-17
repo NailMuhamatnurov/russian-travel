@@ -1,6 +1,6 @@
 .header__links {
-    width: 100%;
+    /*width: 100%;*/
     display: flex;
     justify-content: end;
-    padding-left: calc(100vw/4);
+  /*  padding-left: calc(100vw/4);*/
 }
