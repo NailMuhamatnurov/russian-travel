@@ -2,5 +2,5 @@
     width: 100%;
     display: flex;
     justify-content: end;
-    padding-left: calc(100vw/6.5);
+    padding-left: calc(100vw/4);
 }
