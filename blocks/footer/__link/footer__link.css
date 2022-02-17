@@ -1,5 +1,4 @@
 .footer__link {
-    
     margin: 0;
     color: #FFFFFF;
     text-decoration: none;
@@ -7,6 +6,7 @@
     font-size: 16px;
     line-height: 1.12;
     flex-direction: row;
+    font-weight: 400;
 }
 
 .footer__link:last-of-type {

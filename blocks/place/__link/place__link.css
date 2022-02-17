@@ -3,6 +3,7 @@
     font-size: 18px;
     line-height: 1.2;
     margin-top: 12px;
+    font-weight: 400;
 }
 @media screen and (max-width: 318px) {
     .place__link {
