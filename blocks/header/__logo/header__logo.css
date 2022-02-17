@@ -2,17 +2,5 @@
     display: flex;
     padding-top: 28px;
     align-items: center;
-}
-@media screen and (max-width: 320px) {
-    .header__logo {
-        font-size: 18px;
-        line-height: 1.1;
-    }
-}
-@media screen and (max-width: 318px) {
-    .header__logo {
-        font-size: calc(100vw/17);
-        line-height: 1.1;
-        margin-right: 9px;
-    }
+    justify-content: space-between;
 }
