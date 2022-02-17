@@ -19,6 +19,6 @@
 
 **Картинки**
 
-![Image alt](https://github.com/NailMuhamatnurov/russian-travel/raw/tree/main/images/lead__polka.png)
+![Image alt](https://github.com/NailMuhamatnurov/russian-travel/raw/main/images/lead__polka.png)
 
 Удачи!
