@@ -1,6 +1,5 @@
 .header__links {
-    right: 48px;
     width: 100%;
-    justify-content: end;
     display: flex;
+    justify-content: end;
 }

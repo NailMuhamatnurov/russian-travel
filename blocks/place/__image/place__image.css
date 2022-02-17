@@ -15,9 +15,16 @@
         height: 340px;
     }
 }
+@media screen and (max-width: 376px) {
+    .place__image {
+        width: 100vw;
+        height: 340px;
+        margin-left: calc(100vw/-23);
+    }
+}
 @media screen and (max-width: 320px) {
     .place__image {
-        width: 320px;
+        width: 100vw;
         height: 320px;
         margin-left: -16px;
     }
@@ -26,5 +33,6 @@
     .place__image {
         width: calc(100vw/1.01);
         height: calc(100vw/1.01);
+        margin-left: calc(100vw/-23);
     }
 }
