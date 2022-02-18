@@ -8,6 +8,7 @@
     height: 100%;
     text-decoration: none;
     color: #FFFFFF;
+    transition: background-color .2s linear;
 }
 
 .cover__overlay:hover {

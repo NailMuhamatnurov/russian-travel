@@ -3,25 +3,24 @@
     font-family: "Inter", sans-serif;
     -webkit-font-smoothing: antialiased;
     margin: 0 auto;
-    width: 90.5%;
+    max-width: 90.5%;
     color: #FFFFFF;
     position: relative;
 }
 
 @media screen and (min-width: 1034px) {
     .page {
-        width: 92.5%;
-        margin: 0 auto;
+        max-width: 92.5%;
     }
 }
 
 @media screen and (max-width: 768px) {
     .page {
-        width: 93.5%;
+        max-width: 93.7%;
     }
 }
 @media screen and (max-width: 320px) {
     .page {
-        width: 90%;
+        max-width: 90%;
     }
 }

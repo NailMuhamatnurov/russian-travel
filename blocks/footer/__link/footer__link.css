@@ -12,32 +12,18 @@
 .footer__link:last-of-type {
     margin-right: 0;
 }
-@media screen and (max-width: 750px) {
-    .footer__link {
-        font-size: calc((100vw/48)*1.5);
-    }
- }
- @media screen and (max-width: 470px) {
+
+@media screen and (max-width: 470px) {
     .footer__link {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        font-size: calc((100vw/48)*2);
         margin-bottom: 32px;
     }
  }
- @media screen and (max-width: 350px) {
+@media screen and (max-width: 320px) {
     .footer__link {
-       flex-direction: column;
-       flex-wrap: wrap;
-       font-size: calc((100vw/48)*2.5);
-    }
- }
- @media screen and (max-width: 320px) {
-    .footer__link {
-        flex-direction: column;
-        flex-wrap: wrap;
-        font-size: calc((100vw/48)*3.6);
+        font-size: 14px;
         line-height: 1.1;
     }
  }

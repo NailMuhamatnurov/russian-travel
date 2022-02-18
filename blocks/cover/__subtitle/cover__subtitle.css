@@ -9,26 +9,18 @@
     z-index: 2;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 422px) {
     .cover__subtitle {
-        width: calc(100vw/2.13);
-        font-size: 14px;
-        margin-top: calc(100vw/24);
+        width: 354px;
+        font-size: 16px;
+        line-height: 1.1;
     }
 }
-
-@media screen and (max-width: 700px) {
-    .cover__subtitle {
-        width: calc(100vw/1.8);
-    }
-}
-
 @media screen and (max-width: 320px) {
     .cover__subtitle {
-        width: calc(100vw/1.1);
-        font-size: calc(100vw/22);
+        width: 288px;
+        font-size: 14px;
         line-height: 1.1;
         margin-top: 16px;
-        margin-top: calc(100vw/20);
     }
 }

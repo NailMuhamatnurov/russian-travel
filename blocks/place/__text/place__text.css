@@ -11,12 +11,5 @@
 @media screen and (max-width: 768px) {
     .place__text {
         font-size: 16px;
-        line-height: 1.6;
-    }
-}
-@media screen and (max-width: 500px) {
-    .place__text {
-        font-size: 16px;
-        line-height: 1.6;
     }
 }
