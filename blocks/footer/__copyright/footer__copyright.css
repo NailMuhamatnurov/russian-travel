@@ -7,7 +7,13 @@
 }
 @media screen and (max-width: 750px) {
     .footer__copyright {
+       margin-top: 48px;
+       align-self: flex-start;
+    }
+}
+@media screen and (max-width: 495px) {
+    .footer__copyright {
        margin-top: 16px;
        align-self: flex-start;
     }
- }
+}

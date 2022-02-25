@@ -2,25 +2,6 @@
     background-color: #2A2C2F;
     font-family: "Inter", sans-serif;
     -webkit-font-smoothing: antialiased;
-    margin: 0 auto;
-    max-width: 90.5%;
     color: #FFFFFF;
-    position: relative;
-}
-
-@media screen and (min-width: 1034px) {
-    .page {
-        max-width: 92.5%;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .page {
-        max-width: 93.7%;
-    }
-}
-@media screen and (max-width: 320px) {
-    .page {
-        max-width: 90%;
-    }
+    max-width: 100%;
 }

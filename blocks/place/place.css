@@ -2,15 +2,4 @@
     margin: 0;
     padding: 0;
     list-style-type: none;
-
-}
-@media screen and (max-width: 768px) {
-    .place {
-        margin-top: 88px;
-    }
-}
-@media screen and (max-width: 320px) {
-    .place {
-        margin-top: 64px;
-    }
 }

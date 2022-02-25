@@ -5,12 +5,42 @@
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    height: 100%;
     text-decoration: none;
     color: #FFFFFF;
     transition: background-color .2s linear;
+    min-height: 640px;
 }
 
 .cover__overlay:hover {
     background-color: rgba(42, 44, 47, 0.8);
+}
+@media screen and (min-width: 1280px) {
+    .cover__overlay {
+        min-height: 740px;
+    }
+}
+@media screen and (max-width:1023px) {
+    .cover__overlay {
+        min-height: calc(100vw/1.601);
+    }
+}
+@media screen and (max-width: 768px) {
+    .cover__overlay {
+        min-height: 480px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .cover__overlay {
+        min-height: calc(100vw/1.602);
+    }
+}
+@media screen and (max-width: 320px) {
+    .cover__overlay {
+        min-height: 200px;
+    }
+}
+@media screen and (max-width: 318px) {
+    .cover__overlay {
+        min-height: calc(100vw/1.6);
+    }
 }
