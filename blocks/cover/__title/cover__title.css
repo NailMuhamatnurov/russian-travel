@@ -45,7 +45,8 @@
         font-size: 32px;
         padding-top: 33px;
     }
-}@media screen and (max-width: 300px) {
+}
+@media screen and (max-width: 300px) {
     .cover__title {
         font-size: calc(100vw/10.5);
         width: calc(100vw/1.25);

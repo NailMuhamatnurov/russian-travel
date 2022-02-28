@@ -1,21 +1,21 @@
-.page__margin {
+.page__section {
     margin-left: 48px;
     margin-right: 48px;
     max-width: 1184px;
 }
 @media screen and (min-width: 1281px) {
-    .page__margin {
+    .page__section {
        margin-left: calc((100vw - 1184px)/2);
     }
 }
 @media screen and (max-width: 768px) {
-    .page__margin {
+    .page__section {
         margin-left: 24px;
         margin-right: 24px;
     }
 }
 @media screen and (max-width: 320px) {
-    .page__margin {
+    .page__section {
         margin-left: 16px;
         margin-right: 16px;
     }
